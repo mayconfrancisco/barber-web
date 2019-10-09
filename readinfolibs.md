@@ -83,6 +83,7 @@ criar o arquivo jsconfig.json com o conteúdo abaixo para sinalizar ao vsconde o
 }
 ......
 
+
 yarn add prop-types
 
 yarn add styled-components //lidar com estilos
@@ -106,6 +107,9 @@ yarn add redux react-redux redux-saga reactotron-redux reactotron-redux-saga imm
     yarn add reactotron-redux-saga
 
 
+yarn add axios // lidar com requisicoes http - melhor que o fetch do browser
+
+
 
 
 
@@ -115,7 +119,5 @@ yarn add react-icons //vários pacotes de icones
 
 yarn global add json-server //fake api atraves de arquivo JSON - criar o arquivo server.json <br />
 json-server server.json -p 3333 -w //roda o jsonserver servindo o arquivo server.json na porta 3333 e fica ouvindo o arquivo (-w --watch)
-
-yarn add axios // lidar com requisicoes http - melhor que o fetch do browser
 
 yarn add react-toastity //alertas tipo toast
