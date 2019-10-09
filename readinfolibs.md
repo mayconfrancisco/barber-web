@@ -89,7 +89,9 @@ yarn add styled-components //lidar com estilos
 
 yarn add polished // lida com cores no css - escure/clarea variacoes das suas cores principais
 
+yarn add @rocketseat/unform
 
+yarn add yup //validacoes tanto no front quanto no backend
 
 
 
