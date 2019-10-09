@@ -93,6 +93,19 @@ yarn add @rocketseat/unform
 
 yarn add yup //validacoes tanto no front quanto no backend
 
+yarn add redux react-redux redux-saga reactotron-redux reactotron-redux-saga immer
+
+    yarn add redux react-redux // add api de estado redux - arquitetura flux
+
+    yarn add reactotron-react-js reactotron-redux
+
+    yarn add immer //lidar com as alteracoes no estado do redux de forma facil, atraves de um rascunho
+
+    yarn add redux-saga
+
+    yarn add reactotron-redux-saga
+
+
 
 
 
@@ -105,16 +118,4 @@ json-server server.json -p 3333 -w //roda o jsonserver servindo o arquivo server
 
 yarn add axios // lidar com requisicoes http - melhor que o fetch do browser
 
-yarn add redux react-redux // add api de estado redux - arquitetura flux
-
-yarn add reactotron-react-js reactotron-redux
-
-yarn add immer //lidar com as alteracoes no estado do redux de forma facil, atraves de um rascunho
-
-yarn add redux-saga
-
-yarn add reactotron-redux-saga
-
 yarn add react-toastity //alertas tipo toast
-
-
