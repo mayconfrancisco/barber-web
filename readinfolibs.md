@@ -114,6 +114,9 @@ yarn add redux-persist //persistir dados em bancos locais - no localStorage por 
 
 yarn add react-toastity //alertas tipo toast
 
+http://avatars.adorable.io //para gerar avatars aleatorios - defina o tamanho e o border-radios e copie o link
+
+
 
 
 
