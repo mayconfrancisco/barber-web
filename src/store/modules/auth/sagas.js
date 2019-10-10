@@ -27,6 +27,8 @@ export function* signIn({ payload }) {
       return;
     }
 
+    api.defaults.headers.Authorization = `Bearer ${token}`;
+
     yield put(signInSuccess(token, user));
 
     history.push('/dashboard');
@@ -61,7 +63,18 @@ export function* signUp({ payload }) {
   }
 }
 
+function setToken({ payload }) {
+  if (!payload) return;
+
+  const { token } = payload;
+
+  if (token) {
+    api.defaults.headers.Authorization = `Bearer ${token}`;
+  }
+}
+
 export default all([
+  takeLatest('persist/REHYDRATE', setToken), // ouvindo a action do redux-persist para add o token no axios
   takeLatest('@auth/SIGN_IN_REQUEST', signIn),
   takeLatest('@auth/SIGN_UP_REQUEST', signUp),
 ]);
