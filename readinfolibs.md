@@ -109,6 +109,8 @@ yarn add redux react-redux redux-saga reactotron-redux reactotron-redux-saga imm
 
 yarn add axios // lidar com requisicoes http - melhor que o fetch do browser
 
+yarn add redux-persist //persistir dados em bancos locais - no localStorage por exemplo <br/>
+//Veja mais no arquivo src/store/persistReducers.js
 
 
 
@@ -117,7 +119,7 @@ yarn add axios // lidar com requisicoes http - melhor que o fetch do browser
 
 yarn add react-icons //vários pacotes de icones
 
+yarn add react-toastity //alertas tipo toast
+
 yarn global add json-server //fake api atraves de arquivo JSON - criar o arquivo server.json <br />
 json-server server.json -p 3333 -w //roda o jsonserver servindo o arquivo server.json na porta 3333 e fica ouvindo o arquivo (-w --watch)
-
-yarn add react-toastity //alertas tipo toast
