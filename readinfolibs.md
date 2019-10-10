@@ -116,14 +116,16 @@ yarn add react-toastity //alertas tipo toast
 
 http://avatars.adorable.io //para gerar avatars aleatorios - defina o tamanho e o border-radios e copie o link
 
-
-
-
-
-@@@@@@@@@@@@@@
-
 yarn add react-icons //vários pacotes de icones
 
+yarn add react-perfect-scrollbar
+
+yarn add date-fns
+
+
+
+
+@@@@@@@ NOPE @@@@@@@
 
 yarn global add json-server //fake api atraves de arquivo JSON - criar o arquivo server.json <br />
 json-server server.json -p 3333 -w //roda o jsonserver servindo o arquivo server.json na porta 3333 e fica ouvindo o arquivo (-w --watch)
