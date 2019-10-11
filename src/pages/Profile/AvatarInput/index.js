@@ -51,7 +51,7 @@ export default function AvatarInput() {
           accept="image/*"
           onChange={handleChange}
           data-file={file} // toda param que comeca com data vai para o dataset
-          // TODO - ESTA GERANDO CHAMADA RECURSIVA - ENTENDER O PQ na doc do UNFORM
+          // Tinha alguma dependencia gerando recursividade no render - verifique o package.json/yarn.lock
           ref={ref} // definindo a referencia para poder registrar o campo no unform
         />
       </label>
