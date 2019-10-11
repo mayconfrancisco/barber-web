@@ -52,7 +52,7 @@ export default function AvatarInput() {
           onChange={handleChange}
           data-file={file} // toda param que comeca com data vai para o dataset
           // TODO - ESTA GERANDO CHAMADA RECURSIVA - ENTENDER O PQ na doc do UNFORM
-          // ref={ref} // definindo a referencia para poder registrar o campo no unform
+          ref={ref} // definindo a referencia para poder registrar o campo no unform
         />
       </label>
     </Container>
