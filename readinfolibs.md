@@ -120,8 +120,8 @@ yarn add react-icons //vários pacotes de icones
 
 yarn add react-perfect-scrollbar
 
-yarn add date-fns
-
+yarn add date-fns //Funcoes de datas - melhor que moment <br />
+yarn add data-fns-tz //Funcoes de datas para lidar com timezone
 
 
 
