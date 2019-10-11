@@ -40,7 +40,7 @@ criar o service de history e export no history <br/>
 importar o service history e Router do react-router-dom no App e substituir o BrowserRouter por router, passando o history como parametro <br/>
 importar o service history no sagas e utilizar o history.push('/suaRotaAqui');
 
-.....
+<br/>..........<br/>
 yarn add customize-cra react-app-rewired -D <br/>
 //Para adicionar configuracoes ao create-react-app
 //o react-app-rewired carrega o arquivo config-overrides.js e adicionar plugins/dependencias ao create react-app
@@ -81,7 +81,7 @@ criar o arquivo jsconfig.json com o conteúdo abaixo para sinalizar ao vsconde o
     }
   }
 }
-......
+<br/>...........<br/>
 
 
 yarn add prop-types
